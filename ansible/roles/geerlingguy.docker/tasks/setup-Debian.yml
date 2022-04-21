@@ -4,6 +4,7 @@
     name:
       - docker
       - docker-engine
+      - docker-ce
     state: absent
 
 - name: Ensure dependencies are installed.
